@@ -57,25 +57,10 @@ nav a {
 
 nav a:hover {
     background-color: #B35A3C;
-
 }
 
 main {
     padding: 1rem;
-}
-
-main a {
-    background-color:#D9A441
-    color: #2F2F2F;
-    text-decoration: none;
-    padding: 0.5rem;
-    display: inline-block;
-    text-transform:uppercase;
-}
-
-main a:hover {
-    background-color: #B35A3C;
-    color: white;
 }
 
 section {
@@ -111,22 +96,4 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem;
-}
-
-/* ===== Media Query (Medium sizes) ===== */
-@media screen and (min-width: 817px) {
-    nav ul {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-}
-
-    .card-row {
-        display: flex;
-        gap: 1rem;
-    }
-
-    .card-row section {
-        width: 30%;
-    }
 }
